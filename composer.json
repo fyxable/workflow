@@ -1,0 +1,16 @@
+{
+    "name": "fyxable/workflow",
+    "description": "Nieve Laravel implementation of Symfony Workflow",
+    "authors": [{
+        "name": "Matt Croft",
+        "email": "mattcroftuk@gmail.com"
+    }],
+    "require": {
+        "symfony/workflow": "^4.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Fyxable\\Workflow\\": "src/"
+        }
+    }
+}
