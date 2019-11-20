@@ -12,5 +12,12 @@
         "psr-4": {
             "Fyxable\\Workflow\\": "src/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Fyxable\\Workflow\\WorkflowServiceProvider"
+            ]
+        }
     }
 }
